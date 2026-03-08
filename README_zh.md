@@ -9,7 +9,7 @@
 [![License](https://img.shields.io/badge/License-MIT-purple?style=for-the-badge)](LICENSE)
 [![Platform](https://img.shields.io/badge/平台-OpenClaw%20%7C%20NanoClaw-orange?style=for-the-badge)](https://github.com/MedClaw-Org)
 
-**最大的开源医疗 AI 技能库，专为 Claude Agent 框架设计。**
+**最大的开源医疗 AI 技能库，专为 OpenClaw 框架设计。**
 
 *872 个精选技能 · 临床医学 · 基因组学 · 药物发现 · 生物信息学 · 医疗器械*
 
