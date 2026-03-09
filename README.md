@@ -1555,6 +1555,24 @@ Your agent should list the installed skills with their capabilities.
 | [using-superpowers](skills/using-superpowers/) | Meta-skill: discover and use available skills for any task at conversation start. |
 
 
+## Acknowledgements
+
+We have benefited from the following excellent projects. If you’re interested, please check them out.
+
+1. [awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills)
+2. [Anthropics Skills](https://github.com/anthropics/skills)
+3. [Skillsmp](https://skillsmp.com/)
+4. [awesome-claude-skills](https://github.com/BehiSecc/awesome-claude-skills)
+5. [ClawHub](https://clawhub.ai/)
+6. [水产市场](https://openclawmp.cc/)
+7. [Skills.Sh](https://skills.sh/)
+8. [awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills)
+9. [llmbase](https://llmbase.ai/openclaw/)
+10. [OpenClaw](https://docs.openclaw.ai/zh-CN)
+11. [awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)
+12. [claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills)
+13. [LLMs-Universal-Life-Science-and-Clinical-Skills-](https://github.com/mdbabumiamssm/LLMs-Universal-Life-Science-and-Clinical-Skills-)
+
 
 ## Star History
 
