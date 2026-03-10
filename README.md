@@ -5,13 +5,13 @@
 [![GitHub Stars](https://img.shields.io/github/stars/MedClaw-Org/OpenClaw-Medical-Skills?style=for-the-badge&logo=github&color=gold)](https://github.com/MedClaw-Org/OpenClaw-Medical-Skills/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/MedClaw-Org/OpenClaw-Medical-Skills?style=for-the-badge&logo=github&color=blue)](https://github.com/MedClaw-Org/OpenClaw-Medical-Skills/network/members)
 [![GitHub Issues](https://img.shields.io/github/issues/MedClaw-Org/OpenClaw-Medical-Skills?style=for-the-badge&logo=github)](https://github.com/MedClaw-Org/OpenClaw-Medical-Skills/issues)
-[![Skills Count](https://img.shields.io/badge/Skills-872-brightgreen?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0tMiAxNWwtNS01IDEuNDEtMS40MUwxMCAxNC4xN2w3LjU5LTcuNTlMMTkgOGwtOSA5eiIvPjwvc3ZnPg==)](https://github.com/MedClaw-Org/OpenClaw-Medical-Skills/tree/main/skills)
+[![Skills Count](https://img.shields.io/badge/Skills-869-brightgreen?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0tMiAxNWwtNS01IDEuNDEtMS40MUwxMCAxNC4xN2w3LjU5LTcuNTlMMTkgOGwtOSA5eiIvPjwvc3ZnPg==)](https://github.com/MedClaw-Org/OpenClaw-Medical-Skills/tree/main/skills)
 [![License](https://img.shields.io/badge/License-MIT-purple?style=for-the-badge)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-OpenClaw%20%7C%20NanoClaw-orange?style=for-the-badge)](https://github.com/MedClaw-Org)
 
 **The largest open-source medical AI skills library for OpenClaw.**
 
-*872 curated skills · Clinical · Genomics · Drug Discovery · Bioinformatics · Medical Devices*
+*869 curated skills · Clinical · Genomics · Drug Discovery · Bioinformatics · Medical Devices*
 
 [English](#) | [中文](README_zh.md)
 
@@ -21,7 +21,7 @@
 
 ## What Is This?
 
-**OpenClaw Medical Skills** is a curated collection of **872 AI agent skills** covering the full spectrum of biomedical and clinical research. These skills are designed for [OpenClaw](https://github.com/MedClaw-Org) / [NanoClaw](https://github.com/MedClaw-Org) — Claude-based personal AI assistant frameworks — and transform a general-purpose AI agent into a powerful medical and scientific research companion.
+**OpenClaw Medical Skills** is a curated collection of **869 AI agent skills** covering the full spectrum of biomedical and clinical research. These skills are designed for [OpenClaw](https://github.com/MedClaw-Org) / [NanoClaw](https://github.com/MedClaw-Org) — Claude-based personal AI assistant frameworks — and transform a general-purpose AI agent into a powerful medical and scientific research companion.
 
 Each skill is a self-contained module (a `SKILL.md` file) that:
 - Teaches the agent specialized domain knowledge and workflows
@@ -170,7 +170,7 @@ Your agent should list the installed skills with their capabilities.
 | BioOS Extended Suite | 285+ | End-to-end workflows, oncology agents, clinical AI |
 | ClawBio Pipelines | 22 | scRNA orchestration, GWAS, ancestry, pharmacogenomics |
 | Simulation & Ontology | 17 | Ontology validation, numerical solvers, mesh generation |
-| **Total** | **872** | |
+| **Total** | **869** | |
 
 ---
 
@@ -910,10 +910,6 @@ Your agent should list the installed skills with their capabilities.
 | [tcm-constitution-analyzer](skills/tcm-constitution-analyzer/) | Traditional Chinese Medicine constitution analysis: TCM body type assessment, pattern differentiation, herbal recommendations, and lifestyle guidance. |
 | [emergency-card](skills/emergency-card/) | Generate emergency medical information cards with critical health data, medications, allergies, and emergency contacts for patient safety. |
 | [ai-analyzer](skills/ai-analyzer/) | AI-powered comprehensive health data interpretation combining multiple biomarkers and health metrics for holistic wellness assessment. |
-| [oral-health-analyzer](skills/oral-health-analyzer/) | Oral health assessment: dental symptom analysis, periodontal risk, oral cancer screening awareness, and preventive dental care guidance. |
-| [skin-health-analyzer](skills/skin-health-analyzer/) | Dermatological health analysis: skin condition tracking, lesion documentation, UV exposure assessment, and skincare regimen optimization. |
-| [sexual-health-analyzer](skills/sexual-health-analyzer/) | Sexual health assessment: STI risk evaluation, reproductive health tracking, contraception guidance, and sexual wellness education. |
-| [food-database-query](skills/food-database-query/) | Query comprehensive food databases for nutritional content, ingredient lists, allergen information, and dietary compatibility. |
 | [wellally-tech](skills/wellally-tech/) | Technical framework for WellAlly health analytics platform: integration patterns, data pipelines, and health AI infrastructure. |
 
 ---
@@ -1077,7 +1073,6 @@ Your agent should list the installed skills with their capabilities.
 | [gwas-lookup](skills/gwas-lookup/) | Federated variant lookup across 9 genomic databases: GWAS Catalog, Open Targets, PheWeb (UKB, FinnGen, BBJ), GTEx, eQTL Catalogue, and more. |
 | [gwas-prs](skills/gwas-prs/) | Calculate polygenic risk scores from DTC genetic data (23andMe/AncestryDNA) using the PGS Catalog. |
 | [pharmgx-reporter](skills/pharmgx-reporter/) | Pharmacogenomic report from DTC genetic data — 12 genes, 31 SNPs, 51 drugs with CPIC guidelines and personalized dosage cards. |
-| [nutrigx_advisor](skills/nutrigx_advisor/) | Nutrigenomics advisor — SNP-based personalized dietary recommendations across 13 nutrient domains. |
 | [clinpgx](skills/clinpgx/) | Query the ClinPGx API for pharmacogenomic gene-drug data, clinical annotations, CPIC guidelines, and FDA drug labels. |
 | [drug-photo](skills/drug-photo/) | Identify a medication from a packaging photo via Claude vision, then retrieve genotype-informed dosage guidance. |
 | [claw-ancestry-pca](skills/claw-ancestry-pca/) | Ancestry decomposition PCA against the Simons Genome Diversity Project (345 samples, 164 global populations). |
