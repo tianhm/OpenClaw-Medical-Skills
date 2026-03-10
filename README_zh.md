@@ -156,19 +156,15 @@ Agent 应当列出已安装的技能及其功能说明。
 
 | 类别 | 数量 | 代表技能 |
 |---|---|---|
-| 通用工具 | 9 | 浏览器、深度研究、PDF/DOCX/XLSX/PPTX |
-| 临床与医疗 | 30+ | 预授权、临床报告、CDS、FHIR、USMLE |
-| 药物发现与安全 | 20+ | DDI 预测、药物警戒、药物再利用、ADMET |
-| 科学数据库 | 35+ | PubMed、ChEMBL、UniProt、GWAS 目录、FDA |
-| 生物信息学 (gptomics) | 228 | 变异注释、RNA-seq、scRNA-seq、ATAC-seq |
-| 组学工具 | 50+ | Scanpy、scVI、空间转录组、蛋白质组 |
-| 蛋白质设计 | 15+ | RFdiffusion、ProteinMPNN、AlphaFold、BindCraft |
-| 健康管理 | 19 | 营养、睡眠、健身、中医体质、心理健康 |
-| 医疗器械法规 | 47 | FDA、IEC 62304、ISO 14971、EU MDR、FHIR |
-| BioOS 扩展套件 | 285+ | 端到端流程、肿瘤智能体、临床 AI |
-| ClawBio 管道 | 22 | scRNA 编排、GWAS、祖先分析、药物基因组学 |
-| 模拟与本体论 | 17 | 本体验证、数值求解器、网格生成 |
-| **总计** | **872** | |
+| 通用与核心 | 10 | 浏览器/搜索、文档处理与开发工作流工具 |
+| 医疗与临床 | 119 | 临床报告、决策支持、肿瘤学、影像与医疗 AI |
+| 科学数据库 | 43 | 基因组/蛋白/药物数据库与生物医学检索 |
+| 生物信息学 (gptomics bio-* 套件) | 239 | 变异分析、测序质控、差异表达、通路与单细胞分析 |
+| 组学与计算生物学 | 59 | 单细胞/空间组学、蛋白质组、化学信息学与蛋白设计 |
+| ClawBio 管道 | 21 | 面向 scRNA、GWAS、祖先分析与结构生物学的编排流程 |
+| BioOS 扩展套件 | 285 | 覆盖肿瘤、免疫、临床 AI 与研究基础设施的扩展智能体 |
+| 数据科学与工具 | 93 | 统计、可视化、自动化、模拟与科研工具链 |
+| **总计** | **869** | |
 
 ---
 
@@ -185,16 +181,16 @@ Agent 应当列出已安装的技能及其功能说明。
 - [心理健康与危机干预](#心理健康与危机干预)
 - [健康与健康管理分析](#健康与健康管理分析)
 - [医疗器械与监管](#医疗器械与监管)
-- [医疗器械软件 (meddev-agent-skills)](#医疗器械软件-aminalammeddev-agent-skills-47个技能)
+- [医疗器械软件 (meddev-agent-skills)](#医疗器械与监管)
 
 ### 科学数据库
-- [科学数据库（基因组与变异）](#科学数据库基因组与变异)
-- [科学数据库（蛋白质、通路与药物）](#科学数据库蛋白质通路与药物)
+- [科学数据库（基因组与变异）](#科学数据库（基因组与变异）)
+- [科学数据库（蛋白质、通路与药物）](#科学数据库（蛋白质、通路与药物）)
 - [癌症基因组数据库](#癌症基因组数据库)
 - [基因组与分子数据库](#基因组与分子数据库)
 - [结构生物学与药物发现](#结构生物学与药物发现)
 
-### 生物信息学 (gptomics bio-* 套件)
+### 生物信息学 (gptomics)
 - [生物信息学工具与流程](#生物信息学工具与流程)
 - [生物信息 — 临床数据库与变异分析](#生物信息--临床数据库与变异分析)
 - [生物信息 — 测序与读长质控](#生物信息--测序与读长质控)
@@ -219,7 +215,7 @@ Agent 应当列出已安装的技能及其功能说明。
 
 ### ClawBio 管道
 - [生物信息学编排与管道 (ClawBio)](#生物信息学编排与管道-clawbio)
-- [基因组学、祖先分析与药物基因组学 (ClawBio)](#基因组学祖先分析与药物基因组学-clawbio)
+- [基因组学、祖先分析与药物基因组学 (ClawBio)](#基因组学、祖先分析与药物基因组学-clawbio)
 - [结构生物学与文献综合 (ClawBio)](#结构生物学与文献综合-clawbio)
 
 ### BioOS 扩展套件
@@ -243,20 +239,18 @@ Agent 应当列出已安装的技能及其功能说明。
 - [科学研究与写作](#科学研究与写作)
 - [科学文献与参考管理](#科学文献与参考管理)
 - [补充科学工具](#补充科学工具)
-- [开发工作流技能](#开发工作流技能-obra-superpowers-14个)
+- [开发工作流技能](#开发工作流技能-obrasuperpowers-14个)
 
 ---
 
 ## 技能列表
----
 
+## 🧰 通用与核心
 
-## 通用与核心
-
-<details>
+<details open>
 <summary>展开/收起该大类</summary>
 
-## 通用工具
+### 通用工具
 
 <details>
 <summary>点击展开技能列表</summary>
@@ -278,16 +272,12 @@ Agent 应当列出已安装的技能及其功能说明。
 
 </details>
 
+## 🏥 医疗与临床
 
----
-
-
-## 医疗与临床
-
-<details>
+<details open>
 <summary>展开/收起该大类</summary>
 
-## 医疗专用工具
+### 医疗专用工具
 
 <details>
 <summary>点击展开技能列表</summary>
@@ -440,10 +430,6 @@ Agent 应当列出已安装的技能及其功能说明。
 | [tcm-constitution-analyzer](skills/tcm-constitution-analyzer/) | 中医体质分析：中医体质评估、证型辨别、草药建议和生活方式指导。 |
 | [emergency-card](skills/emergency-card/) | 生成包含关键健康数据、药物、过敏和紧急联系人的急救医疗信息卡，用于患者安全。 |
 | [ai-analyzer](skills/ai-analyzer/) | AI驱动的全面健康数据解读，结合多个生物标志物和健康指标进行整体健康评估。 |
-| [oral-health-analyzer](skills/oral-health-analyzer/) | 口腔健康评估：牙科症状分析、牙周风险、口腔癌筛查意识和预防性牙科护理指导。 |
-| [skin-health-analyzer](skills/skin-health-analyzer/) | 皮肤科健康分析：皮肤状况追踪、皮损记录、紫外线暴露评估和护肤方案优化。 |
-| [sexual-health-analyzer](skills/sexual-health-analyzer/) | 性健康评估：性传播感染风险评估、生殖健康追踪、避孕指导和性健康教育。 |
-| [food-database-query](skills/food-database-query/) | 查询综合食物数据库获取营养成分、配料表、过敏原信息和饮食兼容性。 |
 | [wellally-tech](skills/wellally-tech/) | WellAlly健康分析平台的技术框架：集成模式、数据管道和健康AI基础设施。 |
 
 </details>
@@ -482,13 +468,9 @@ Agent 应当列出已安装的技能及其功能说明。
 
 </details>
 
+## 🗂️ 科学数据库
 
----
-
-
-## 科学数据库
-
-<details>
+<details open>
 <summary>展开/收起该大类</summary>
 
 ### 科学数据库（基因组与变异）
@@ -586,13 +568,9 @@ Agent 应当列出已安装的技能及其功能说明。
 
 </details>
 
+## 🧬 生物信息学 (gptomics bio-* 套件)
 
----
-
-
-## 生物信息学 (gptomics bio-* 套件)
-
-<details>
+<details open>
 <summary>展开/收起该大类</summary>
 
 ### 生物信息学工具与流程
@@ -696,6 +674,7 @@ Agent 应当列出已安装的技能及其功能说明。
 | [bio-splicing-qc](skills/bio-splicing-qc/) | RNA剪接质量评估：连接读长覆盖度、新颖剪接位点。 |
 | [bio-splicing-quantification](skills/bio-splicing-quantification/) | 量化可变剪接事件：每亚型的PSI/包含率。 |
 | [bio-sashimi-plots](skills/bio-sashimi-plots/) | 生成Sashimi图以可视化特定位点的RNA-seq剪接。 |
+| [bio-consensus-sequences](skills/bio-consensus-sequences/) | 使用 `bcftools consensus` 将 VCF 变异应用到参考序列，生成共识 FASTA；适用于样本特异参考和单倍型重建。 |
 
 </details>
 
@@ -965,13 +944,9 @@ Agent 应当列出已安装的技能及其功能说明。
 
 </details>
 
+## 🔬 组学与计算生物学
 
----
-
-
-## 组学与计算生物学
-
-<details>
+<details open>
 <summary>展开/收起该大类</summary>
 
 ### 单细胞与空间组学
@@ -1095,13 +1070,9 @@ Agent 应当列出已安装的技能及其功能说明。
 
 </details>
 
+## ⚙️ ClawBio 管道
 
----
-
-
-## ClawBio 管道
-
-<details>
+<details open>
 <summary>展开/收起该大类</summary>
 
 ### 生物信息学编排与管道 (ClawBio)
@@ -1130,7 +1101,6 @@ Agent 应当列出已安装的技能及其功能说明。
 | [gwas-lookup](skills/gwas-lookup/) | 跨9个基因组数据库的联合变异查询：GWAS Catalog、Open Targets、PheWeb（UKB、FinnGen、BBJ）、GTEx、eQTL Catalogue等。 |
 | [gwas-prs](skills/gwas-prs/) | 使用PGS Catalog从DTC基因数据（23andMe/AncestryDNA）计算多基因风险评分。 |
 | [pharmgx-reporter](skills/pharmgx-reporter/) | 来自DTC基因数据的药物基因组报告 — 12个基因、31个SNP、51种药物，含CPIC指南和个性化剂量卡。 |
-| [nutrigx_advisor](skills/nutrigx_advisor/) | 营养基因组顾问 — 基于SNP的13个营养领域个性化饮食建议。 |
 | [clinpgx](skills/clinpgx/) | 查询ClinPGx API获取药物基因组基因-药物数据、临床注释、CPIC指南和FDA药品标签。 |
 | [drug-photo](skills/drug-photo/) | 通过Claude视觉从药品包装照片识别药物，然后检索基因型知情的剂量指导。 |
 | [claw-ancestry-pca](skills/claw-ancestry-pca/) | 与西蒙斯基因组多样性项目（345个样本，164个全球群体）的祖先分解PCA分析。 |
@@ -1158,13 +1128,9 @@ Agent 应当列出已安装的技能及其功能说明。
 
 </details>
 
+## 🧠 BioOS 扩展套件
 
----
-
-
-## BioOS 扩展套件
-
-<details>
+<details open>
 <summary>展开/收起该大类</summary>
 
 ### BioOS 扩展生物信息工具套件
@@ -1450,6 +1416,7 @@ Agent 应当列出已安装的技能及其功能说明。
 | [bio-workflow-management-nextflow-pipelines](skills/bio-workflow-management-nextflow-pipelines/) | 构建和运行 Nextflow (DSL2) 生物信息管道。 |
 | [bio-workflow-management-cwl-workflows](skills/bio-workflow-management-cwl-workflows/) | 编写通用工作流语言（CWL）可移植工作流定义。 |
 | [bio-workflow-management-wdl-workflows](skills/bio-workflow-management-wdl-workflows/) | 创建用于 Terra/Cromwell 生物信息执行的 WDL 工作流。 |
+| [bio-workflows-expression-to-pathways](skills/bio-workflows-expression-to-pathways/) | 从差异表达结果到 GO/KEGG/Reactome 富集与通路可视化的端到端工作流。 |
 
 </details>
 
@@ -1502,6 +1469,7 @@ Agent 应当列出已安装的技能及其功能说明。
 | [deep-visual-proteomics-agent](skills/deep-visual-proteomics-agent/) | 深度视觉蛋白质组学：激光捕获显微切割质谱数据的空间蛋白质组分析。 |
 | [exosome-ev-analysis-agent](skills/exosome-ev-analysis-agent/) | 细胞外囊泡和外泌体分析：货物分析和生物标志物发现。 |
 | [microbiome-cancer-agent](skills/microbiome-cancer-agent/) | 肿瘤微生物组分析及其在癌症进展和免疫治疗反应中的作用。 |
+| [bio-fragment-analysis](skills/bio-fragment-analysis/) | 基于 FinaleToolkit/Griffin 分析 cfDNA 片段长度分布与 fragmentomics 特征，用于肿瘤检测与组织来源评估。 |
 
 </details>
 
@@ -1664,13 +1632,9 @@ Agent 应当列出已安装的技能及其功能说明。
 
 </details>
 
+## 📊 数据科学与工具
 
----
-
-
-## 数据科学与工具
-
-<details>
+<details open>
 <summary>展开/收起该大类</summary>
 
 ### 统计与数据分析

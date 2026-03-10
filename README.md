@@ -158,18 +158,14 @@ Your agent should list the installed skills with their capabilities.
 
 | Category | Count | Highlights |
 |---|---|---|
-| General Tools | 9 | Browser, deep research, PDF/DOCX/XLSX/PPTX |
-| Clinical & Medical | 30+ | Prior auth, clinical reports, CDS, FHIR, USMLE |
-| Drug Discovery & Safety | 20+ | DDI, pharmacovigilance, repurposing, ADMET |
-| Scientific Databases | 35+ | PubMed, ChEMBL, UniProt, GWAS Catalog, FDA |
-| Bioinformatics (gptomics) | 228 | Variant calling, RNA-seq, scRNA-seq, ATAC-seq |
-| Omics Tools | 50+ | Scanpy, scVI, spatial transcriptomics, proteomics |
-| Protein Design | 15+ | RFdiffusion, ProteinMPNN, AlphaFold, BindCraft |
-| Health & Wellness | 19 | Nutrition, sleep, fitness, TCM, mental health |
-| Medical Device Regulatory | 47 | FDA, IEC 62304, ISO 14971, EU MDR, FHIR |
-| BioOS Extended Suite | 285+ | End-to-end workflows, oncology agents, clinical AI |
-| ClawBio Pipelines | 22 | scRNA orchestration, GWAS, ancestry, pharmacogenomics |
-| Simulation & Ontology | 17 | Ontology validation, numerical solvers, mesh generation |
+| General & Core | 10 | Browser/search, document tools, and developer workflow utilities |
+| Medical & Clinical | 119 | Clinical reports, CDS, oncology, imaging, and healthcare AI |
+| Scientific Databases | 43 | Genomics/protein/drug databases and biomedical knowledge retrieval |
+| Bioinformatics (gptomics) | 239 | Variant analysis, sequencing QC, DE, pathways, single-cell, and epigenomics |
+| Omics & Computational Biology | 59 | Single-cell/spatial, proteomics, cheminformatics, and protein design tools |
+| ClawBio Pipelines | 21 | Orchestration pipelines for scRNA, GWAS, ancestry, and structural workflows |
+| BioOS Extended Suite | 285 | Extended agent suite for oncology, immunology, clinical AI, and infrastructure |
+| Data Science & Tools | 93 | Statistics, visualization, automation, simulation, and scientific tooling |
 | **Total** | **869** | |
 
 ---
@@ -187,7 +183,7 @@ Your agent should list the installed skills with their capabilities.
 - [Mental Health & Crisis Intervention](#mental-health--crisis-intervention)
 - [Health & Wellness Analytics](#health--wellness-analytics)
 - [Medical Device & Regulatory](#medical-device--regulatory)
-- [Medical Device Software (meddev-agent-skills)](#medical-device-software-aminalammeddev-agent-skills)
+- [Medical Device Software (meddev-agent-skills)](#medical-device--regulatory)
 
 ### Scientific Databases
 - [Scientific Databases (Genomics & Variants)](#scientific-databases-genomics--variants)
@@ -225,7 +221,7 @@ Your agent should list the installed skills with their capabilities.
 - [Structural Biology & Literature (ClawBio)](#structural-biology--literature-clawbio)
 
 ### BioOS Extended Suite
-- [BioOS Extended Bioinformatics Suite](#bioos-extended-bioinformatics-suite-mdbabumiamssmlllms-universal-life-science-and-clinical-skills-)
+- [BioOS Extended Bioinformatics Suite](#bioos-extended-bioinformatics-suite-mdbabumiamssmllms-universal-life-science-and-clinical-skills-)
 - [Oncology & Precision Medicine Agents (BioOS)](#oncology--precision-medicine-agents-bioos)
 - [Hematology & Blood Disorders (BioOS)](#hematology--blood-disorders-bioos)
 - [Immunology & Cell Therapy (BioOS)](#immunology--cell-therapy-bioos)
@@ -245,20 +241,18 @@ Your agent should list the installed skills with their capabilities.
 - [Scientific Research & Writing](#scientific-research--writing)
 - [Scientific Literature & Reference Management](#scientific-literature--reference-management)
 - [Additional Scientific Tools](#additional-scientific-tools)
-- [Developer Workflow Skills](#developer-workflow-skills-obra-superpowers)
+- [Developer Workflow Skills](#developer-workflow-skills-obrasuperpowers)
 
 ---
 
 ## Skills List
----
 
+## 🧰 General & Core
 
-## General & Core
-
-<details>
+<details open>
 <summary>Expand/Collapse this category</summary>
 
-## General Tools
+### General Tools
 
 <details>
 <summary>Click to expand skill list</summary>
@@ -280,16 +274,12 @@ Your agent should list the installed skills with their capabilities.
 
 </details>
 
+## 🏥 Medical & Clinical
 
----
-
-
-## Medical & Clinical
-
-<details>
+<details open>
 <summary>Expand/Collapse this category</summary>
 
-## Medical Tools
+### Medical Tools
 
 <details>
 <summary>Click to expand skill list</summary>
@@ -480,13 +470,9 @@ Your agent should list the installed skills with their capabilities.
 
 </details>
 
+## 🗂️ Scientific Databases
 
----
-
-
-## Scientific Databases
-
-<details>
+<details open>
 <summary>Expand/Collapse this category</summary>
 
 ### Scientific Databases (Genomics & Variants)
@@ -584,13 +570,9 @@ Your agent should list the installed skills with their capabilities.
 
 </details>
 
+## 🧬 Bioinformatics (gptomics bio-* suite)
 
----
-
-
-## Bioinformatics (gptomics bio-* suite)
-
-<details>
+<details open>
 <summary>Expand/Collapse this category</summary>
 
 ### Bioinformatics Tools & Pipelines
@@ -694,6 +676,7 @@ Your agent should list the installed skills with their capabilities.
 | [bio-splicing-qc](skills/bio-splicing-qc/) | RNA splicing quality assessment: junction read coverage, novel splice sites. |
 | [bio-splicing-quantification](skills/bio-splicing-quantification/) | Quantify alternative splicing events: PSI/inclusion levels per isoform. |
 | [bio-sashimi-plots](skills/bio-sashimi-plots/) | Generate sashimi plots for visualizing RNA-seq splicing at specific loci. |
+| [bio-consensus-sequences](skills/bio-consensus-sequences/) | Generate consensus FASTA sequences by applying VCF variants to a reference using `bcftools consensus`; useful for sample-specific references and haplotype reconstruction. |
 
 </details>
 
@@ -963,13 +946,9 @@ Your agent should list the installed skills with their capabilities.
 
 </details>
 
+## 🔬 Omics & Computational Biology
 
----
-
-
-## Omics & Computational Biology
-
-<details>
+<details open>
 <summary>Expand/Collapse this category</summary>
 
 ### Single-Cell & Spatial Omics
@@ -1093,13 +1072,9 @@ Your agent should list the installed skills with their capabilities.
 
 </details>
 
+## ⚙️ ClawBio Pipelines
 
----
-
-
-## ClawBio Pipelines
-
-<details>
+<details open>
 <summary>Expand/Collapse this category</summary>
 
 ### Bioinformatics Orchestration & Pipelines (ClawBio)
@@ -1155,13 +1130,9 @@ Your agent should list the installed skills with their capabilities.
 
 </details>
 
+## 🧠 BioOS Extended Suite
 
----
-
-
-## BioOS Extended Suite
-
-<details>
+<details open>
 <summary>Expand/Collapse this category</summary>
 
 ### BioOS Extended Bioinformatics Suite (mdbabumiamssm/LLMs-Universal-Life-Science-and-Clinical-Skills-)
@@ -1447,6 +1418,7 @@ Your agent should list the installed skills with their capabilities.
 | [bio-workflow-management-nextflow-pipelines](skills/bio-workflow-management-nextflow-pipelines/) | Build and run Nextflow (DSL2) bioinformatics pipelines. |
 | [bio-workflow-management-cwl-workflows](skills/bio-workflow-management-cwl-workflows/) | Write Common Workflow Language (CWL) portable workflow definitions. |
 | [bio-workflow-management-wdl-workflows](skills/bio-workflow-management-wdl-workflows/) | Create WDL workflows for Terra/Cromwell bioinformatics execution. |
+| [bio-workflows-expression-to-pathways](skills/bio-workflows-expression-to-pathways/) | End-to-end workflow from differential expression to GO/KEGG/Reactome enrichment and pathway visualization. |
 
 </details>
 
@@ -1499,6 +1471,7 @@ Your agent should list the installed skills with their capabilities.
 | [deep-visual-proteomics-agent](skills/deep-visual-proteomics-agent/) | Deep visual proteomics: spatial proteomic analysis from laser-capture microdissection MS data. |
 | [exosome-ev-analysis-agent](skills/exosome-ev-analysis-agent/) | Extracellular vesicle and exosome analysis: cargo profiling and biomarker discovery. |
 | [microbiome-cancer-agent](skills/microbiome-cancer-agent/) | Tumor microbiome analysis and its role in cancer progression and immunotherapy response. |
+| [bio-fragment-analysis](skills/bio-fragment-analysis/) | Analyze cfDNA fragment size distributions and fragmentomics features (FinaleToolkit/Griffin) for cancer detection and tissue-of-origin assessment. |
 
 </details>
 
@@ -1641,7 +1614,6 @@ Your agent should list the installed skills with their capabilities.
 | [biomni-general-agent](skills/biomni-general-agent/) | BioMni general biomedical agent for flexible multi-step research tasks. |
 | [biomni-research-agent](skills/biomni-research-agent/) | BioMni research-focused agent with literature, database, and analysis integration. |
 | [biokernel](skills/biokernel/) | BioKernel: unified computational kernel for bioinformatics tool orchestration. |
-| [biomaster-workflows](skills/biomaster-workflows/) | BioMaster workflow orchestration for complex multi-step bioinformatics analyses. |
 | [biomcp-server](skills/biomcp-server/) | BioMCP: Model Context Protocol server for bioinformatics tool access. |
 | [mcpmed-bioinformatics-server](skills/mcpmed-bioinformatics-server/) | MCP server providing medical bioinformatics tool access to agents. |
 | [kragen-knowledge-graph](skills/kragen-knowledge-graph/) | KRAGEN knowledge graph for biomedical entity relationships and reasoning. |
@@ -1662,13 +1634,9 @@ Your agent should list the installed skills with their capabilities.
 
 </details>
 
+## 📊 Data Science & Tools
 
----
-
-
-## Data Science & Tools
-
-<details>
+<details open>
 <summary>Expand/Collapse this category</summary>
 
 ### Statistics & Data Analysis
